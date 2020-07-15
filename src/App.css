@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+html, body {
+  background-color: #0da4b5;
+}
+
+#card-task {
+  background-color: #fff;
+  padding: 5%;
+}
+
+.list-group-item{
+  margin-top: 1%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -41,35 +54,13 @@
   padding: 40px 40px;
 }
 
-.card {
-  background-color: #c0c0c0;
-  padding: 20px 25px 30px;
-  margin: 0 auto 25px;
-  margin-top: 50px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+/* .list-group-item { */
+  /* background-color: #c0c0c0; */
+  /* padding: 20px 25px 30px; */
+  /* margin: 0 auto 2%; */
+  /* margin-top: 50px; */
+  /* -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  border-radius: 5%;
-}
-
-.task {
-  background-color: #fff;
-}
-
-.dragged .item {
-  opacity: 0.25;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #ffffff;
-}
-
-.floating .item {
-  background-color: #ffffff;
-  box-shadow: 0 4px 20px #666666;
-}
-
-.dl-item.floating {
-  width: 85%;
-}
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */
+  /* border-radius: 5%; */
+/* } */

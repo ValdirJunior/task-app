@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -10,22 +10,9 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <nav className="navbar navbar-expand navbar-dark bg-dark">
-            <a href="/tasks" className="navbar-brand">
-              Tasks App
-            </a>
-            <div className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <Link to={"/tasks"} className="nav-link">
-                  Tarefas
-                </Link>
-              </li>
-            </div>
-          </nav>
-
           <div className="container mt-3">
             <Switch>
-              <Route exact path={["/", "/tasks"]} component={TasksList} />
+              <Route path={["/"]} component={TasksList} />
             </Switch>
           </div>
         </div>
